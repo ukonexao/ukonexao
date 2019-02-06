@@ -1,0 +1,10 @@
+<br>
+<br>
+
+<h1>Joe</h1>
+
+<img src="Images/Pic_3.jpg" alt="" align="right" height=300 width=300 hspace=20 vspace=20 class="visible-lg">
+<img src="Images/Pic_3.jpg" alt="" align="right" height=240 width=240 hspace=20 vspace=20 class="visible-md">
+<img src="Images/Pic_3.jpg" alt="" align="right" height=200 width=200 hspace=20 vspace=20 class="visible-sm">
+<img src="Images/Pic_3.jpg" alt="" align="right" height=150 width=150 hspace=20 vspace=20 class="visible-xs">
+
