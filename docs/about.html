@@ -164,13 +164,27 @@ $(document).ready(function () {
 </div>
 
 
-<p><br> <br></p>
 <script src="jquery.js"/>
 <script src="jquery.translate.js"/>
 <p><span class="trn">text to translate</span></p>
-<p>var dict = { “Home”: { pt: “Início” }, “Download plugin”: { pt: “Descarregar plugin”, en: “Download plugin” } }</p>
-<p>var translator = $(‘body’).translate({lang: “en”, t: dict}); //use English</p>
-<p>translator.lang(“pt”); //change to Portuguese</p>
+<script type="text/javascript">
+
+var dict = {
+  "Home": {
+    pt: "Início"
+  },
+  "Download plugin": {
+     pt: "Descarregar plugin",
+     en: "Download plugin"
+  }
+}
+
+var translator = $('body').translate({lang: "en", t: dict}); //use English
+
+translator.lang("pt"); //change to Portuguese
+
+</script>
+<p><br> <br></p>
 <body id="About">
 <h1>
 UKonexao: a coaching scheme for Brazilian students
