@@ -1,0 +1,86 @@
+input[type=checkbox] {
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+}
+
+.main-container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+  font-size: 170%;
+  color:black;
+  padding-bottom: 70px;
+}
+
+.title {
+  font.size: 200%;
+}
+
+.navbar {
+  border-color: white;
+  background-color: white;
+  font-size: 120%;
+}
+
+.dropdown-menu {
+  text-align: center;
+  padding: 5px 0;
+  margin: 6px 0 0;
+  font-size: 14px;
+  box-shadow: 0 1px 1px rgba(0,0,0,.175);
+  border: black;
+
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.navbar-fixed-bottom {
+  padding: 20px 20px;
+
+}
+
+.navbar-fixed-bottom > a {
+  padding-left:10px;
+  padding-right:30px;
+}
+
+.fa {
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.thumbnail a>img, .thumbnail>img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border: 0px solid;
+  border-radius: 4px;
+}
+
+.thumbnail {
+  border: 0px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 3px solid #d3d3d3;
+}
+
+textarea {
+    max-width: 100%;
+}
+
